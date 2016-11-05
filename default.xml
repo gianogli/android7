@@ -20,6 +20,14 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/7.1" />
 
+  <remote  name="CyanogenMod"
+           fetch="https://github.com/cyanogenmod"
+           review="review.cyanogenmod.org" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets"
+           revision="cm-14.1" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
