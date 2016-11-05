@@ -516,7 +516,7 @@
 
   <!-- i9300 -->
     <!-- <project name="gianogli/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="6.0.0"/> -->
-    <project name="gianogli/android_device_samsung_i9300" path="device/samsung/i9300" remote="CyanogenMod" revision="cm-14.1"/>
+    <project name="android_device_samsung_i9300" path="device/samsung/i9300" remote="CyanogenMod" revision="cm-14.1"/>
     <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="CyanogenMod" revision="cm-14.1" />
     <project name="android_hardware_samsung" path="hardware/samsung" remote="CyanogenMod" revision="cm-14.1" />
     <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-14.1" />
