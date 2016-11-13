@@ -24,6 +24,10 @@
            fetch="https://github.com/cyanogenmod"
            review="review.cyanogenmod.org" />
 
+  <remote  name="gianogli"
+	   fetch="git://github.com/gianogli"
+	   revision="7.1" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets"
            revision="cm-14.1" />
