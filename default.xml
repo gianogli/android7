@@ -20,9 +20,9 @@
            review="review.lineageos.org"
            revision="refs/heads/7.1" />
 
-  <remote  name="CyanogenMod"
-           fetch="https://github.com/cyanogenmod"
-           review="review.cyanogenmod.org" />
+  <remote  name="LineageOS"
+           fetch="https://github.com/lineageos"
+           review="review.lineageos.org" />
 
   <remote  name="gianogli"
 	   fetch="git://github.com/gianogli"
