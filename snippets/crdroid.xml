@@ -8,7 +8,7 @@
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
-  <project path="frameworks/base" name="android_frameworks_base_7" remote="gianogli" />
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base_7" remote="gianogli" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="hardware/qcom/keymaster" name="crdroidandroid/android_hardware_qcom_keymaster" remote="crdroid" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
