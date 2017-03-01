@@ -20,6 +20,10 @@
            review="review.lineageos.org"
            revision="refs/heads/7.1" />
 
+  <remote  name="LineageOS"
+           fetch="https://github.com/lineageos"
+	   review="review.lineageos.org" />
+
   <remote  name="gianogli"
 	   fetch="git://github.com/gianogli"
 	   revision="7.1" />
