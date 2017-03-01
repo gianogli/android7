@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r9" />
+           revision="refs/tags/android-7.1.1_r21" />
 
   <remote  name="crdroid"
            fetch=".."
@@ -19,10 +19,6 @@
            sync-j="4"
            review="review.lineageos.org"
            revision="refs/heads/7.1" />
-
-  <remote  name="LineageOS"
-           fetch="https://github.com/lineageos"
-           review="review.lineageos.org" />
 
   <remote  name="gianogli"
 	   fetch="git://github.com/gianogli"
@@ -32,10 +28,8 @@
            fetch="git://github.com/TheMuppets"
            revision="cm-14.1" />
  
-  <remote name="teamsubstratum"
-           fetch="https://github.com/"
-           review="review.projektsubstratum.com"
-           revision="n" />
+  <remote name = "gitlab"
+           fetch = "https://gitlab.com/" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
@@ -409,7 +403,7 @@
   <!-- <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" /> -->
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
+  <!-- <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" /> -->
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
