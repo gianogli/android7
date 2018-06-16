@@ -62,7 +62,7 @@
   <project path="system/media" name="crdroidandroid/android_system_media" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
-  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/addons" name="android_vendor_addons_7" remote="gianogli" />
   <project path="vendor/cm" name="android_vendor_crdroid_7" remote="gianogli" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="crdroid" />
   <project path="vendor/crDroidOTA-devices" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
