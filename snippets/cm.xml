@@ -122,11 +122,15 @@
 
   <!-- i9300 -->
   <project name="android_device_samsung_i9300" path="device/samsung/i9300" remote="LineageOS" revision="cm-14.1"/>
-  <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="LineageOS" revision="cm-14.1" />
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="LineageOS" revision="cm-14.1" />
-  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-14.1" />
+  <!-- <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="LineageOS" revision="cm-14.1" /> -->
+  <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gianogli" revision="cm-14.1_hwc" />
+  <!-- <project name="android_hardware_samsung" path="hardware/samsung" remote="LineageOS" revision="cm-14.1" /> -->
+  <!-- <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-14.1" /> -->
   <project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="LineageOS" revision="cm-14.1" />
   <project name="android_external_stlport" path="external/stlport" remote="LineageOS" revision="cm-14.1" />
-  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="LineageOS" revision="cm-14.1" />
+  <!-- <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="LineageOS" revision="cm-14.1" /> -->
+  <project path="hardware/samsung" name="fourkbomb/android_hardware_samsung" revision="cm-14.1-rebase" />
+  <project path="kernel/samsung/smdk4412" name="fourkbomb/android_kernel_samsung_smdk4412" revision="cm-14.1-rebase" />
+  <project path="vendor/samsung" name="fourkbomb/proprietary_vendor_samsung" depth="1" />
   <!-- END i9300 -->
 </manifest>

@@ -1,5 +1,7 @@
 # crDroid Android #
 
+## Experimental HWC support for i9300 ##
+
 ## Grabbing the source ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
@@ -28,7 +30,7 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/gianogli/android7 -b 7.1
+$ repo init -u https://github.com/gianogli/android7 -b 7.1_hwc
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your

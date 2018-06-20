@@ -344,7 +344,8 @@
   <!-- <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" /> -->
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
+  <!-- <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" /> -->
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="gianogli" revision="cm-14.1_hwc"/>
   <!-- <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
@@ -396,7 +397,8 @@
   <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel,pdk" />
   <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel,pdk" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense,pdk" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <!-- <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" /> -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="gianogli" revision="cm-14.1_hwc"/>
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" remote="aosp" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" />
